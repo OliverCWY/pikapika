@@ -7,7 +7,6 @@ env:
   GH_TOKEN: ${{ github.token }}
 
 jobs:
-
   ci-pass:
     name: CI is green
     runs-on: ubuntu-latest
@@ -177,7 +176,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: 'niuhuan/pikapika-go-core'
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ github.token }}
           path: 'go'
 
       - name: Cache Flutter dependencies (Linux/Android)
