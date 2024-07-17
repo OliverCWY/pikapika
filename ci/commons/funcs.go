@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-const Owner = "niuhuan"
+const Owner = "OliverCWY"
 const Repo = "pikapika"
 const Ua = "niuhuan pikapika ci"
 const MainBranch = "master"
