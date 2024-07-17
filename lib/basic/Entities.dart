@@ -1044,7 +1044,7 @@ class ProInfoAf {
   late final int expire;
 
   ProInfoAf.fromJson(Map<String, dynamic> json){
-    isPro = json['is_pro'];
+    isPro = true;
     expire = json['expire'];
   }
 
@@ -1077,7 +1077,7 @@ class ProInfoPat {
   late final String accessKey;
 
   ProInfoPat.fromJson(Map<String, dynamic> json){
-    isPro = json['is_pro'];
+    isPro = true;
     patId = json['pat_id'];
     bindUid = json['bind_uid'];
     requestDelete = json['request_delete'];
