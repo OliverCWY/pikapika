@@ -14,7 +14,7 @@ jobs:
     needs:
       - check_release
       - build_release_assets
-      - send_to_community
+      #6 - send_to_community
     steps:
       - run: exit 0
 
